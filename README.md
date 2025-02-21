@@ -12,6 +12,7 @@ Breast cancer is one of the most common types of cancer affecting women worldwid
 ```
 project/
 │-- index.html                # Main HTML file
+│-- Breast_Cancer_Prediction.ipynb               # Model Training
 │-- package.json              # Node.js dependencies
 │-- tsconfig.json             # TypeScript configuration
 │-- tailwind.config.js        # Tailwind CSS configuration
@@ -35,8 +36,8 @@ project/
 ### Steps
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/breast-cancer-prediction.git
-   cd breast-cancer-prediction
+   git clone https://github.com/nikfury27/Breast-Cancer-Prediction.git
+   cd Breast-Cancer-Prediction
    ```
 
 2. **Install dependencies**
