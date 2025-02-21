@@ -8,19 +8,52 @@ Breast cancer is one of the most common types of cancer affecting women worldwid
 
 ---
 
-## 🏗️ Project Structure  
+## 📂 Project Structure
+```
+project/
+│-- index.html                # Main HTML file
+│-- package.json              # Node.js dependencies
+│-- tsconfig.json             # TypeScript configuration
+│-- tailwind.config.js        # Tailwind CSS configuration
+│-- vite.config.ts            # Vite configuration
+│-- src/                      # Source code directory
+│   │-- components/           # UI components
+│   │-- models/               # Machine learning model integration
+│   │-- utils/                # Utility functions
+│-- public/                   # Static assets
+│-- .gitignore                # Git ignored files
+```
 
-```
-📂 Breast-Cancer-Prediction
-│── 📁 dataset/             # Contains training and testing data
-│── 📁 models/              # Pre-trained models and saved checkpoints
-│── 📁 static/              # CSS, JavaScript, and assets for UI (if applicable)
-│── 📁 templates/           # HTML templates for web-based demo (if applicable)
-│── 📄 app.py               # Main script to run the Flask web app (if applicable)
-│── 📄 model_training.ipynb # Jupyter Notebook for training the model
-│── 📄 requirements.txt     # Dependencies for the project
-│── 📄 README.md            # Project Documentation
-```
+---
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+- Node.js (>= 16)
+- npm or yarn
+
+### Steps
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/yourusername/breast-cancer-prediction.git
+   cd breast-cancer-prediction
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server**
+   ```sh
+   npm run dev
+   ```
+   The project should now be accessible at `http://localhost:3000/`.
+
+4. **Build for production**
+   ```sh
+   npm run build
+   ```
 
 ---
 
