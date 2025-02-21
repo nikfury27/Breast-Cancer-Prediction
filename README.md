@@ -10,19 +10,19 @@ Breast cancer is one of the most common types of cancer affecting women worldwid
 
 ## 📂 Project Structure
 ```
-project/
-│-- index.html                # Main HTML file
-│-- Breast_Cancer_Prediction.ipynb               # Model Training
-│-- package.json              # Node.js dependencies
-│-- tsconfig.json             # TypeScript configuration
-│-- tailwind.config.js        # Tailwind CSS configuration
-│-- vite.config.ts            # Vite configuration
-│-- src/                      # Source code directory
-│   │-- components/           # UI components
-│   │-- models/               # Machine learning model integration
-│   │-- utils/                # Utility functions
-│-- public/                   # Static assets
-│-- .gitignore                # Git ignored files
+Breast Cancer Prediciton/
+│-- index.html                                  # Main HTML file
+│-- Breast_Cancer_Prediction.ipynb              # Model Training
+│-- package.json                                # Node.js dependencies
+│-- tsconfig.json                               # TypeScript configuration
+│-- tailwind.config.js                          # Tailwind CSS configuration
+│-- vite.config.ts                              # Vite configuration
+│-- src/                                        # Source code directory
+│   │-- components/                             # UI components
+│   │-- models/                                 # Machine learning model integration
+│   │-- utils/                                  # Utility functions
+│-- public/                                     # Static assets
+│-- .gitignore                                  # Git ignored files
 ```
 
 ---
